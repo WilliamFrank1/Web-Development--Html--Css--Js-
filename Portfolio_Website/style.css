@@ -1,0 +1,218 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: hsla(37, 100%, 62%, 1);
+  background: linear-gradient(90deg, hsla(37, 100%, 62%, 1) 2%, hsla(251, 95%, 77%, 1) 84%);
+  background: -moz-linear-gradient(90deg, hsla(37, 100%, 62%, 1) 2%, hsla(251, 95%, 77%, 1) 84%);
+  background: -webkit-linear-gradient(90deg, hsla(37, 100%, 62%, 1) 2%, hsla(251, 95%, 77%, 1) 84%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFB43B", endColorstr="#A08CFC", GradientType=1 );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+header {
+  background-color: hsla(272, 100%, 75%, 0.879);
+  color: white;
+  padding: 1em 0;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  max-width: 1080px;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+nav svg {
+  width: 40px;
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a:hover {
+  color: hsla(0, 0%, 20%, 0.895);
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul button {
+  border: 4px solid rgb(117, 181, 255);
+  background-color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(172, 85, 253);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.big-mom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 0;
+  min-height: 450px;
+}
+
+#about, #my-profile {
+  width: 80%;
+  max-width: 800px;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+#about h1 {
+  margin: 0 0 0.5em;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#about p {
+  margin: 0 0 1em;
+}
+
+#about button {
+  padding: 0.5em 1em;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.2rem;
+}
+
+#my-profile img {
+  max-width: 240px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about-me {
+  padding: 2em;
+  margin-bottom: 100px;
+}
+
+.about-me h1, pre {
+  margin-bottom: 1em;
+  margin-left: 30px;
+}
+
+.your_Mom{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.small-me {
+  margin-bottom: 2em;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  width: 40%;
+  margin: 10px;
+  box-shadow: 5px 5px 5px;
+  transition: 0.4s;
+}
+
+.small-me:hover{
+  box-shadow: 10px 10px 10px;
+}
+
+.small-me h2 {
+  margin-top: 0;
+}
+
+.small-me button {
+  padding: 0.5em 1em;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px;
+}
+
+
+.thirdPart{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 250px;
+  margin-bottom: 120px;
+}
+
+.Progress-wrapper{
+  width: 280px;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 6px;
+  transition: 0.4s;
+}
+
+.Progress-wrapper:hover{
+  box-shadow: 10px 10px 11px;
+}
+
+.progress-bar{
+  width: 100%;
+  display: inline-block;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  overflow:hidden;
+}
+
+.progress-bar span{
+  display: block;
+  height: 20px;
+  background-color: #3498db;
+  text-align: right;
+  padding-right: 10px;
+  box-sizing: border-box;
+  border-radius: 10px 0 0 10px;
+  font-weight: bold;
+}
+
+footer{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsla(272, 100%, 75%, 0.879);
+  padding: 10px 0;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
