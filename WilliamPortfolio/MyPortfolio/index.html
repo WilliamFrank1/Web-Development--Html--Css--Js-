@@ -24,7 +24,7 @@
         <section id="about">
             <h1>Hey There, I am William</h1>
             <p>I am just a beginner and in touch this field for about 3 months!</p>
-            <button id="myLearn">Learn More</button>
+            <a id="button">Learn More</a>
         </section>
         <section id="my-profile">
             <img src="photo_2024-07-24_11-10-14.jpg" alt="my_picture..">
@@ -83,5 +83,16 @@
      </footer>
 
     <script src="https://kit.fontawesome.com/50d7b99b74.js" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const navToggle = document.querySelector('nav svg');
+            const navMenu = document.querySelector('nav ul');
+
+            navToggle.addEventListener('click', function () {
+                navMenu.classList.toggle('active');
+            });
+        });
+    </script>
+
 </body>
 </html>
